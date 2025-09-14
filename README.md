@@ -23,3 +23,13 @@ streamlit run streamlit.py
 ```
 
 
+## 🚀 Live App
+
+Check out the deployed Streamlit app here:  
+👉 [Open App](https://demo-tutorial.streamlit.app/)
+
+
+# Application is live and open this url
+```bash
+https://demo-tutorial.streamlit.app/
+```
