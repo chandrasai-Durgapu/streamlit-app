@@ -1,0 +1,2 @@
+streamlit
+plotly==6.3.0  #for charts and visualization
