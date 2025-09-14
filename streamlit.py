@@ -189,10 +189,15 @@ def main():
     st.set_page_config(page_title="Streamlit Tutorial" ,
                        page_icon="🧊",                 # Can be emoji or URL to .ico/.png
                        layout="wide",           # 'centered' (default) or 'wide'
-                         initial_sidebar_state="expanded"  # 'auto', 'expanded', or 'collapsed'
+                         initial_sidebar_state="expanded",
+                        menu_items={
+                        'Get Help': 'https://docs.streamlit.io/',
+                         'Report a bug': "https://github.com/chandrasai-Durgapu/streamlit-app/issues",
+                         'About': "# My App\nThis is a demo Streamlit app."
+                                 }
                         )
 
-    st.sidebar.title("Streamlit Tutorial")
+    st.sidebar.title("🧊 Streamlit Tutorial")
     page= st.sidebar.selectbox("Choose a section",
                                ["Basic UI", 
                                 "Data Display", 
