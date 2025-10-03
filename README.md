@@ -2,6 +2,14 @@
 this project is fully developed with streamlit and within streamlit-app try to display data and charts and visualizations and layouts and containers and file upload and file download and progress bar and status bar ...etc....
 
 
+---
+
+## 🧰 Tech Stack
+
+- **Python 3.10+** — Core programming language
+- **Streamlit** — Framework for building interactive, data-driven web apps easily  
+---
+
 # Create Conda virtual environment
 ```bash
  conda create -n streamlit python=3.10 -y  
